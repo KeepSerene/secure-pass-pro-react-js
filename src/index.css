@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+:root {
+  /* Font family */
+  --ff: "JetBrains Mono", serif;
+
+  /* Typography */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-md: 1.25rem;
+  --fs-lg: 1.5rem;
+  --fs-xl: 2rem;
+
+  /* Colors: HSL values */
+  --gray: 251 9% 53%;
+  --dark-gray: 248 10% 15%;
+  --very-dark-gray: 248 15% 11%;
+  --soft-white: 252 11% 91%;
+  --neon-green: 127 100% 82%;
+  --yellow: 42 91% 68%;
+  --orange: 13 95% 66%;
+  --red: 0 91% 63%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  color-scheme: dark;
+  font-size: 100%;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+input,
+textarea,
+button {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img,
+figure,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+
+p,
+li,
+figure,
+address {
+  text-wrap: pretty;
+}
+
+body {
+  background-color: hsl(var(--very-dark-gray));
+  color: hsl(var(--soft-white));
+  font-family: var(--ff);
+  font-size: var(--fs-base);
+  font-weight: var(--fw-regular);
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: hsl(var(--gray));
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--neon-green));
+  border-radius: 6px;
+}
+
+/* Selection styles */
+::selection {
+  background-color: hsl(var(--neon-green));
+  color: hsl(var(--very-dark-gray));
+}

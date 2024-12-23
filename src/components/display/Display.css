@@ -1,0 +1,68 @@
+.display {
+  width: 100%;
+  background-color: hsl(var(--dark-gray));
+  color: hsl(var(--gray));
+  border-radius: 0.25rem;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+}
+
+.password {
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-medium);
+}
+
+.copy-success-msg {
+  background-color: hsl(var(--soft-white));
+  color: hsl(var(--dark-gray));
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-medium);
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+
+  position: absolute;
+  top: -0.8rem;
+  right: 1rem;
+}
+
+.copy-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.copy-icon {
+  display: block;
+  width: 21px;
+  height: 24px;
+}
+
+.copy-btn .copy-icon path {
+  fill: hsl(var(--neon-green));
+
+  transition: fill 250ms ease-in-out;
+}
+
+.copy-btn:where(:hover, :focus-visible) .copy-icon path {
+  fill: hsl(var(--soft-white));
+}
+
+/* Responsiveness */
+/* Screen sizes >= 768px */
+@media screen and (width >= 48em) {
+  .display {
+    padding: 1rem 2rem;
+  }
+
+  .password {
+    font-size: var(--fs-xl);
+  }
+
+  .copied-text {
+    top: -0.5rem;
+  }
+}
