@@ -8,7 +8,7 @@ A modern, secure password generator built with React that helps users create str
 
 ## 🔴 Live Demo
 
-[View Live Demo](your-demo-url)
+[View Live Demo](https://secure-pass-pro-tawny.vercel.app/)
 
 ## 🔍 Overview
 
@@ -83,7 +83,7 @@ Used React Context for global state management, handling:
 
 ```bash
 # Clone repository
-git clone [your-repo-url]
+git clone https://github.com/KeepSerene/secure-pass-pro-react-js.git
 
 # Install dependencies
 npm install
@@ -97,11 +97,11 @@ npm run build
 
 ## 👤 Author
 
-[Your Name]
+Dhrubajyoti Bhattacharjee
 
-- GitHub: [@yourusername]
-- Portfolio: [your-portfolio]
-- LinkedIn: [your-linkedin]
+- GitHub: [@KeepSerene](https://github.com/KeepSerene)
+- Portfolio: [Dhrubajyoti Bhattacharjee](https://math-to-dev.vercel.app/)
+- LinkedIn: [Dhrubajyoti Bhattacharjee](https://www.linkedin.com/in/dhrubajyoti-bhattacharjee-320822318/)
 
 ## 📄 License
 

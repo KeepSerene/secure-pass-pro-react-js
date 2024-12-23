@@ -7,8 +7,6 @@ import PasswordProvider from "./components/PasswordProvider";
 import Controller from "./components/controller/Controller";
 import Display from "./components/display/Display";
 
-// Project link: https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh
-
 function App() {
   return (
     <PasswordProvider>
